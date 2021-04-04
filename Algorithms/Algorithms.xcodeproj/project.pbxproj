@@ -88,6 +88,8 @@
 			children = (
 				F50A9EC3261914B60043AA5D /* AlgorithmsTests.swift */,
 				F50A9EC5261914B60043AA5D /* Info.plist */,
+				F550DDDB261A639200744B95 /* Search */,
+				F550DDDC261A63A400744B95 /* Sorting */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -102,6 +104,20 @@
 			sourceTree = "<group>";
 		};
 		F50A9ED6261917730043AA5D /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		F550DDDB261A639200744B95 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F550DDDC261A63A400744B95 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
 			);

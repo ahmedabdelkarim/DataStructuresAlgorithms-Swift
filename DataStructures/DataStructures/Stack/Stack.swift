@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Stack implemented with Array as back store.
 public struct Stack<T> {
     private var array = [T]()
     
@@ -30,5 +31,9 @@ public struct Stack<T> {
     
     public mutating func pop() -> T? {
         return array.popLast()
+    }
+    
+    public mutating func popAll() {
+        array.removeAll()
     }
 }
