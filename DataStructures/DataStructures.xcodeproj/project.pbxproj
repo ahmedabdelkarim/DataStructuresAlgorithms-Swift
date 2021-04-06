@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5085A9C261D0C12004AF6C2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5085A9B261D0C12004AF6C2 /* Queue.swift */; };
+		F5085AA0261D0EC1004AF6C2 /* LinkedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5085A9F261D0EC1004AF6C2 /* LinkedQueue.swift */; };
+		F5085AA4261D0F03004AF6C2 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5085AA3261D0F03004AF6C2 /* QueueTests.swift */; };
+		F5085AA8261D1125004AF6C2 /* LinkedQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5085AA7261D1125004AF6C2 /* LinkedQueueTests.swift */; };
 		F50A9E99261914900043AA5D /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50A9E8F261914900043AA5D /* DataStructures.framework */; };
 		F50A9E9E261914900043AA5D /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50A9E9D261914900043AA5D /* DataStructuresTests.swift */; };
 		F50A9EA0261914900043AA5D /* DataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = F50A9E92261914900043AA5D /* DataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5085A9B261D0C12004AF6C2 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		F5085A9F261D0EC1004AF6C2 /* LinkedQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedQueue.swift; sourceTree = "<group>"; };
+		F5085AA3261D0F03004AF6C2 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
+		F5085AA7261D1125004AF6C2 /* LinkedQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedQueueTests.swift; sourceTree = "<group>"; };
 		F50A9E8F261914900043AA5D /* DataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50A9E92261914900043AA5D /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
 		F50A9E93261914900043AA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +127,8 @@
 		F550DDD9261A635D00744B95 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
+				F5085A9B261D0C12004AF6C2 /* Queue.swift */,
+				F5085A9F261D0EC1004AF6C2 /* LinkedQueue.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -126,6 +136,8 @@
 		F550DDDA261A637200744B95 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
+				F5085AA3261D0F03004AF6C2 /* QueueTests.swift */,
+				F5085AA7261D1125004AF6C2 /* LinkedQueueTests.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -239,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5085AA0261D0EC1004AF6C2 /* LinkedQueue.swift in Sources */,
 				F50A9ED22619151D0043AA5D /* Stack.swift in Sources */,
+				F5085A9C261D0C12004AF6C2 /* Queue.swift in Sources */,
 				F550DDCF261A60DD00744B95 /* LinkedStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F550DDCA261A5DEC00744B95 /* StackTests.swift in Sources */,
+				F5085AA8261D1125004AF6C2 /* LinkedQueueTests.swift in Sources */,
 				F50A9E9E261914900043AA5D /* DataStructuresTests.swift in Sources */,
 				F550DDD4261A628900744B95 /* LinkedStackTests.swift in Sources */,
+				F5085AA4261D0F03004AF6C2 /* QueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
