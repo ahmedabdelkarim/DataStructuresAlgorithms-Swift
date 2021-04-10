@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Node used for singly linked lists.
 internal class LinkedListNode<T> {
     internal let data: T
     internal let next: LinkedListNode<T>?

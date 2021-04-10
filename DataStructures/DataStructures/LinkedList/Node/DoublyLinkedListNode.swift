@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Node used for doubly linked lists.
 internal class DoublyLinkedListNode<T> {
     internal let data: T
     internal let previous: DoublyLinkedListNode<T>?

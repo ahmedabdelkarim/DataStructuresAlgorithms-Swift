@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Doubly linked list. Items are linked in two directions from start to end, and backward.
 public struct DoublyLinkedList<T> {
     private var head: DoublyLinkedListNode<T>? = nil
     
