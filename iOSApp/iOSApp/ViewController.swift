@@ -27,6 +27,20 @@ class ViewController: UIViewController {
         
         stack.popAll()
         print("Empty? \(stack.isEmpty)")
+        
+        
+        var queue = Queue<Int>()
+        queue.enqueue(1)
+        queue.enqueue(2)
+        
+        print("Count = \(queue.count)")
+        print("Peek element = \(queue.peek!)")
+        
+        let dequeued = queue.dequeue()
+        print("After removing \(dequeued!), Count = \(queue.count)")
+        
+        queue.dequeueAll()
+        print("Empty? \(queue.isEmpty)")
 
         
         
