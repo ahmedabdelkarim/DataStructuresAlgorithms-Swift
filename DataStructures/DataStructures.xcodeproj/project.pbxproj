@@ -15,6 +15,7 @@
 		F50A9E9E261914900043AA5D /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50A9E9D261914900043AA5D /* DataStructuresTests.swift */; };
 		F50A9EA0261914900043AA5D /* DataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = F50A9E92261914900043AA5D /* DataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F50A9ED22619151D0043AA5D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50A9ED12619151D0043AA5D /* Stack.swift */; };
+		F528FAC3263E0AB6008B5776 /* StackPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528FAC2263E0AB6008B5776 /* StackPerformanceTests.swift */; };
 		F550DDCA261A5DEC00744B95 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550DDC9261A5DEC00744B95 /* StackTests.swift */; };
 		F550DDCF261A60DD00744B95 /* LinkedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550DDCE261A60DD00744B95 /* LinkedStack.swift */; };
 		F550DDD4261A628900744B95 /* LinkedStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550DDD3261A628900744B95 /* LinkedStackTests.swift */; };
@@ -48,6 +49,7 @@
 		F50A9E9D261914900043AA5D /* DataStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresTests.swift; sourceTree = "<group>"; };
 		F50A9E9F261914900043AA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F50A9ED12619151D0043AA5D /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		F528FAC2263E0AB6008B5776 /* StackPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPerformanceTests.swift; sourceTree = "<group>"; };
 		F550DDC9261A5DEC00744B95 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		F550DDCE261A60DD00744B95 /* LinkedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedStack.swift; sourceTree = "<group>"; };
 		F550DDD3261A628900744B95 /* LinkedStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedStackTests.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				F550DDC9261A5DEC00744B95 /* StackTests.swift */,
 				F550DDD3261A628900744B95 /* LinkedStackTests.swift */,
+				F528FAC2263E0AB6008B5776 /* StackPerformanceTests.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F550DDCA261A5DEC00744B95 /* StackTests.swift in Sources */,
+				F528FAC3263E0AB6008B5776 /* StackPerformanceTests.swift in Sources */,
 				F5085AA8261D1125004AF6C2 /* LinkedQueueTests.swift in Sources */,
 				F50A9E9E261914900043AA5D /* DataStructuresTests.swift in Sources */,
 				F550DDD4261A628900744B95 /* LinkedStackTests.swift in Sources */,

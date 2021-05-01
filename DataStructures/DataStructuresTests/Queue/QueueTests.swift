@@ -17,7 +17,7 @@ class QueueTests: XCTestCase {
         XCTAssertNil(queue.peek)
     }
     
-    func testOneElement() throws {
+    func testEnqueueOneElement() throws {
         var queue = Queue<Int>()
         queue.enqueue(1)
         
@@ -26,7 +26,7 @@ class QueueTests: XCTestCase {
         XCTAssertEqual(queue.peek, 1)
     }
     
-    func testManyElements() throws {
+    func testEnqueueManyElements() throws {
         var queue = Queue<Int>()
         queue.enqueue(1)
         queue.enqueue(2)
@@ -72,6 +72,7 @@ class QueueTests: XCTestCase {
         XCTAssertNil(queue.peek)
     }
     
+    //MARK: - Performance
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

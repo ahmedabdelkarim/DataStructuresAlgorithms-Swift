@@ -8,6 +8,6 @@
 import Foundation
 
 /// Queue implemented with Linked List as back store.
-public struct LinkedQueue {
+public struct LinkedQueue<T> {
     
 }

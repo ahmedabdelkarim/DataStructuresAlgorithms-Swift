@@ -17,7 +17,7 @@ class StackTests: XCTestCase {
         XCTAssertNil(stack.top)
     }
     
-    func testOneElement() throws {
+    func testPushOneElement() throws {
         var stack = Stack<Int>()
         stack.push(1)
         
@@ -26,7 +26,7 @@ class StackTests: XCTestCase {
         XCTAssertEqual(stack.top, 1)
     }
     
-    func testManyElements() throws {
+    func testPushManyElements() throws {
         var stack = Stack<Int>()
         stack.push(1)
         stack.push(2)
@@ -70,12 +70,5 @@ class StackTests: XCTestCase {
         XCTAssertTrue(stack.isEmpty)
         XCTAssertEqual(stack.count, .zero)
         XCTAssertNil(stack.top)
-    }
-    
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
 }
